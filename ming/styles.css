@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #212121;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure the body takes the full height of the viewport */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container {
+    position: relative;
+    width: 820px; /* Adjust the width as needed */
+    cursor: pointer;
+}
+
+video, #thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+video {
+    display: none; /* Hide the video initially */
+}
